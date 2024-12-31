@@ -23,7 +23,8 @@
     "forceConsistentCasingInFileNames": true,
     "baseUrl": ".",
     "paths": {
-      "~/*": ["./app/*"]
+      "~/*": ["./app/*"],
+      "@mui/styled-engine": ["./node_modules/@mui/styled-engine-sc"]
     },
 
     // Vite takes care of building everything, not tsc.
